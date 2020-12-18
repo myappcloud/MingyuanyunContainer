@@ -1,0 +1,6 @@
+framework module MingyuanyunContainer {
+  umbrella header "MingyuanyunContainer.h"
+
+  export *
+  module * { export * }
+}
