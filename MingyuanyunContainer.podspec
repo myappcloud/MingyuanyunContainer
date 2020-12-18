@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.dependency  'Masonry'
   # s.dependency  'SSZipArchive', '~> 2.2.2'
   # s.dependency  'TFHpple', '2.0.0'
-  # s.dependency  'MBProgressHUD', '~> 1.1.0'
+  s.dependency  'MBProgressHUD', '~> 1.1.0'
   # s.dependency  'AFNetworking', '~> 4.0.0'
   # s.dependency  'FMDB', '2.7.5'
   # s.dependency  'MMKV'
