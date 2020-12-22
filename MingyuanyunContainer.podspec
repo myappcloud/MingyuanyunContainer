@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'MingyuanyunContainer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'Container center'
 
   s.homepage         = 'https://github.com/myappcloud/MingyuanyunContainer'
   s.license          = 'MIT'
   s.author           = { 'myappcloud' => 'myappcloud@mingyuanyun.com' }
   # s.source           = { :git => 'https://github.com/myappcloud/MingyuanyunContainer.git', :tag => s.version.to_s }
-  s.source           = { :git => 'https://github.com/myappcloud/MingyuanyunContainer/tree/master/MingyuanyunContainer', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/myappcloud/MingyuanyunContainer/blob/master/MingyuanyunContainer.zip', :tag => s.version.to_s }
 
   s.cocoapods_version       = '>= 1.6.1'
   s.swift_version           = '5.0'
