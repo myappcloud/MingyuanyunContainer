@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '9.0'
   s.frameworks             = 'UIKit'
 
-  s.public_header_files  =  '*.framework/Headers/*.h'
-  s.vendored_frameworks  =  '*.framework'
+  s.public_header_files  =  'MingyuanyunContainer/*.framework/Headers/*.h'
+  s.vendored_frameworks  =  'MingyuanyunContainer/*.framework'
 
-  s.resources = '*.bundle'
+  s.resources = 'MingyuanyunContainer/*.bundle'
 
   s.dependency  'SAMKeychain', '~> 1.5.0'
   s.dependency  'Masonry'
