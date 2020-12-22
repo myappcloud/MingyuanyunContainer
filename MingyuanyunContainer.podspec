@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/myappcloud/MingyuanyunContainer'
   s.license          = 'MIT'
   s.author           = { 'myappcloud' => 'myappcloud@mingyuanyun.com' }
-  # s.source           = { :git => 'https://github.com/myappcloud/MingyuanyunContainer.git', :tag => s.version.to_s }
-  s.source           = { :http => 'https://raw.githubusercontent.com/myappcloud/MingyuanyunContainer/master/MingyuanyunContainer.zip'}
+  s.source           = { :git => 'https://github.com/myappcloud/MingyuanyunContainer.git', :tag => s.version.to_s }
 
   s.cocoapods_version       = '>= 1.6.1'
   s.swift_version           = '5.0'
@@ -16,7 +15,6 @@ Pod::Spec.new do |s|
 
   s.public_header_files  =  '*.framework/Headers/*.h'
   s.vendored_frameworks  =  '*.framework'
-
   s.resources = '*.bundle'
 
   s.dependency  'SAMKeychain', '~> 1.5.0'
