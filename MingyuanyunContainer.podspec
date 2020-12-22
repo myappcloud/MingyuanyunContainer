@@ -6,18 +6,18 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/myappcloud/MingyuanyunContainer'
   s.license          = 'MIT'
   s.author           = { 'myappcloud' => 'myappcloud@mingyuanyun.com' }
-  s.source           = { :git => 'https://github.com/myappcloud/MingyuanyunContainer.git', :tag => s.version.to_s }
-  # s.source           = { :http => 'https://github.com/myappcloud/MingyuanyunContainer/blob/master/MingyuanyunContainer.zip'}
+  # s.source           = { :git => 'https://github.com/myappcloud/MingyuanyunContainer.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/myappcloud/MingyuanyunContainer/blob/master/MingyuanyunContainer.zip'}
 
   s.cocoapods_version       = '>= 1.6.1'
   s.swift_version           = '5.0'
   s.ios.deployment_target   = '9.0'
   s.frameworks             = 'UIKit'
 
-  s.public_header_files  =  'MingyuanyunContainer/*.framework/Headers/*.h'
-  s.vendored_frameworks  =  'MingyuanyunContainer/*.framework'
+  s.public_header_files  =  '*.framework/Headers/*.h'
+  s.vendored_frameworks  =  '*.framework'
 
-  s.resources = 'MingyuanyunContainer/*.bundle'
+  s.resources = '*.bundle'
 
   s.dependency  'SAMKeychain', '~> 1.5.0'
   s.dependency  'Masonry'
