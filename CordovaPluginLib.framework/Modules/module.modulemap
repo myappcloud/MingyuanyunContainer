@@ -1,0 +1,6 @@
+framework module CordovaPluginLib {
+  umbrella header "CordovaPluginLib.h"
+
+  export *
+  module * { export * }
+}
