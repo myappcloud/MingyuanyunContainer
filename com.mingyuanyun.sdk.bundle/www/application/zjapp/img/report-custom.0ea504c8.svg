@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>自定义表白</title>
+    <desc>Created with Sketch.</desc>
+    <g id="一级导航-报表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="报表-设置" transform="translate(-15.000000, -438.000000)">
+            <g id="编组-7" transform="translate(0.000000, 80.000000)">
+                <g id="编组-2" transform="translate(15.000000, 346.000000)">
+                    <g id="自定义表白" transform="translate(0.000000, 12.000000)">
+                        <rect id="矩形" stroke="#DBDBDB" fill="#FAFAFA" x="0.5" y="0.5" width="15" height="15" rx="4"></rect>
+                        <path d="M5.52,12.02 L5.52,11.46 L10.48,11.46 L10.48,12.02 L11.44,12.02 L11.44,3.92 L7.72,3.92 C7.9,3.6 8.05,3.27 8.15,2.91 L7.18,2.77 C7.08,3.17 6.92,3.55 6.72,3.92 L4.56,3.92 L4.56,12.02 L5.52,12.02 Z M10.48,6.09 L5.52,6.09 L5.52,4.83 L10.48,4.83 L10.48,6.09 Z M10.48,8.28 L5.52,8.28 L5.52,6.97 L10.48,6.97 L10.48,8.28 Z M10.48,10.56 L5.52,10.56 L5.52,9.16 L10.48,9.16 L10.48,10.56 Z" id="自" fill="#999999" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
