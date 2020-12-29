@@ -813,9 +813,7 @@ IF NOT EXISTS material_task
    category_name        text COLLATE NOCASE,
    checker              text COLLATE NOCASE,
    remark               text COLLATE NOCASE,
-   area_acceptor        text COLLATE NOCASE,
-   contract_id          text COLLATE NOCASE,
-   contract_name        text COLLATE NOCASE
+   area_acceptor        text COLLATE NOCASE
 );
 
 create table

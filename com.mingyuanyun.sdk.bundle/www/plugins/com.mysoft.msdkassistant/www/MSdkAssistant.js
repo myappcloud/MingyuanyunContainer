@@ -21,5 +21,10 @@ exports.addListener = function(success) {
     exec(success, null, "MSdkAssistant", "addListener", []);
 };
 
+exports.getUserInfo = function(success) {
+    exec(success, null, "MSdkAssistant", "getUserInfo", []);
+};
+
+
 
 });
