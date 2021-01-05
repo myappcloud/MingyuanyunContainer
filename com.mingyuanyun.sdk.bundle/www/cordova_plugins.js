@@ -436,7 +436,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "com.mysoft.mfileexplorer": "1.0.6",
     "com.mysoft.mmkv": "1.0.5",
     "cordova-plugin-dialogs": "2.0.1",
-    "com.mysoft.mdownloader": "1.5.3",
+    "com.mysoft.mdownloader": "1.5.4",
     "com.mysoft.docpreview": "1.1.2",
     "com.mysoft.mbarcode": "1.2.6",
     "com.mysoft.mwebview": "1.6.8",

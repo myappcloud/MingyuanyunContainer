@@ -305,7 +305,8 @@ IF NOT EXISTS checkquality_problem
    item_name        text,
    contract_id text COLLATE NOCASE,
    deduction_level text COLLATE NOCASE,
-   repair_requirements text  -- 现场、安全、质量整改要求
+   repair_requirements text,  -- 现场、安全、质量整改要求
+   voice_file text COLLATE NOCASE -- 语音地址，json数据
 );
 CREATE INDEX
 IF NOT EXISTS idx_checkquality_problem_batch_id ON checkquality_problem
@@ -813,7 +814,9 @@ IF NOT EXISTS material_task
    category_name        text COLLATE NOCASE,
    checker              text COLLATE NOCASE,
    remark               text COLLATE NOCASE,
-   area_acceptor        text COLLATE NOCASE
+   area_acceptor        text COLLATE NOCASE,
+   contract_id          text COLLATE NOCASE,
+   contract_name        text COLLATE NOCASE
 );
 
 create table
