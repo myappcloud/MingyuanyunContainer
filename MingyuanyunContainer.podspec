@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   s.dependency  'SSZipArchive', '~> 2.2.3'
   s.dependency  'MBProgressHUD', '~> 1.1.0'
   s.dependency  'AFNetworking', '~> 4.0.0'
-  s.dependency  'FMDB', '~> 2.7.5'
+  # s.dependency  'FMDB', '~> 2.7.5'
+  s.dependency  'FMDB-isExecutingStatement', '2.7.5'
   s.dependency  'MMKV', '~> 1.2'
   s.dependency  'SDWebImage', '~> 5.0'
   
