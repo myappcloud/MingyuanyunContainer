@@ -215,6 +215,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "com.mysoft.mminio.MMinIO",
+      "file": "plugins/com.mysoft.mminio/www/MMinIO.js",
+      "pluginId": "com.mysoft.mminio",
+      "clobbers": [
+        "MMinIO"
+      ]
+    },
+    {
       "id": "com.mysoft.wkwebview.ios-wkwebview-exec",
       "file": "plugins/com.mysoft.wkwebview/src/www/ios/ios-wkwebview-exec.js",
       "pluginId": "com.mysoft.wkwebview",
@@ -420,13 +428,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-file": "6.0.2",
     "com.mysoft.msdkassistant": "1.0.3",
     "com.mysoft.maliyunoss": "1.4.4",
+    "com.mysoft.mminio": "1.1.1",
     "com.mysoft.wkwebview": "1.3.7",
     "cordova-plugin-keyboard": "1.1.0",
     "cordova-plugin-network-information": "2.0.1",
     "com.mysoft.mstatusbar": "2.3.1",
     "com.mysoft.maccelerometer": "1.0.2",
     "com.mysoft.mimagepicker": "1.4.9",
-    "com.mysoft.mfilemanager": "1.4.3",
+    "com.mysoft.mfilemanager": "1.4.4",
     "com.mysoft.mutils": "1.8.2",
     "com.mysoft.msignatureboard": "1.0.8",
     "cordova-plugin-device": "2.0.3",

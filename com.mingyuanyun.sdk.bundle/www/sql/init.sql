@@ -816,7 +816,11 @@ IF NOT EXISTS material_task
    remark               text COLLATE NOCASE,
    area_acceptor        text COLLATE NOCASE,
    contract_id          text COLLATE NOCASE,
-   contract_name        text COLLATE NOCASE
+   contract_name        text COLLATE NOCASE,
+   is_flow              integer default 0,
+   current_task_process_id  text COLLATE NOCASE,
+   entry_date           text COLLATE NOCASE,
+   sendback_date        text COLLATE NOCASE
 );
 
 create table
@@ -833,6 +837,10 @@ IF NOT EXISTS material_task_log
    remark               text COLLATE NOCASE,
    cc                   text COLLATE NOCASE,
    occurrence_date      text COLLATE NOCASE,
+   operate_user         text COLLATE NOCASE,
+   operate_status       text COLLATE NOCASE,
+   role_type            text COLLATE NOCASE,
+   task_process_id      text COLLATE NOCASE,
    created_on           text COLLATE NOCASE,
    created_by           text COLLATE NOCASE,
    download_time        text COLLATE NOCASE,
@@ -874,6 +882,27 @@ IF NOT EXISTS material_task_user
    created_by           text COLLATE NOCASE,
    download_time        text COLLATE NOCASE,
    update_timestamp     text
+);
+
+-- 材料任务流程节点表
+create table
+IF NOT EXISTS material_task_process
+(
+   id                   text PRIMARY KEY NOT NULL,
+   name                 text COLLATE NOCASE,
+   task_id              text COLLATE NOCASE,
+   node_id              text COLLATE NOCASE,
+   next_id              text COLLATE NOCASE
+);
+
+-- 材料任务节点用户表
+create table
+IF NOT EXISTS material_task_process_user
+(
+   id                   text PRIMARY KEY NOT NULL,
+   task_id              text COLLATE NOCASE,
+   task_process_id      text COLLATE NOCASE,
+   user_id              text COLLATE NOCASE
 );
 
 create table
@@ -1856,6 +1885,8 @@ IF NOT EXISTS material_task_photo_requirement
 (
    id                   text PRIMARY KEY not null,
    task_id              text,
+   task_process_id      text COLLATE NOCASE,
+   desc                 text,
    photo_requirement_id text COLLATE NOCASE,
    title                text,
    image_file           text,

@@ -1,1 +1,1 @@
-(window.webpackJsonp_module_entry_zjapp_=window.webpackJsonp_module_entry_zjapp_||[]).push([["application"],{"599f":function(p,e,n){"use strict";n.r(e),e.default={hotUpdateVersion:"0.28.359"}}}]);
+(window.webpackJsonp_module_entry_zjapp_=window.webpackJsonp_module_entry_zjapp_||[]).push([["application"],{"599f":function(p,e,n){"use strict";n.r(e),e.default={hotUpdateVersion:"0.34.264"}}}]);
