@@ -239,6 +239,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "com.mysoft.hikvision.MHikvision",
+      "file": "plugins/com.mysoft.hikvision/www/mhikvision.js",
+      "pluginId": "com.mysoft.hikvision",
+      "clobbers": [
+        "MHikvision"
+      ]
+    },
+    {
       "id": "cordova-plugin-network-information.network",
       "file": "plugins/cordova-plugin-network-information/www/network.js",
       "pluginId": "cordova-plugin-network-information",
@@ -293,14 +301,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "pluginId": "com.mysoft.mutils",
       "clobbers": [
         "MUtils"
-      ]
-    },
-    {
-      "id": "com.mysoft.msignatureboard.MSignatureBoard",
-      "file": "plugins/com.mysoft.msignatureboard/www/msignatureboard.js",
-      "pluginId": "com.mysoft.msignatureboard",
-      "clobbers": [
-        "MSignatureBoard"
       ]
     },
     {
@@ -390,6 +390,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "com.mysoft.msignatureboard.MSignatureBoard",
+      "file": "plugins/com.mysoft.msignatureboard/www/msignatureboard.js",
+      "pluginId": "com.mysoft.msignatureboard",
+      "clobbers": [
+        "MSignatureBoard"
+      ]
+    },
+    {
       "id": "com.mysoft.mwebview.MWebview",
       "file": "plugins/com.mysoft.mwebview/www/MWebview.js",
       "pluginId": "com.mysoft.mwebview",
@@ -431,13 +439,13 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "com.mysoft.mminio": "1.1.1",
     "com.mysoft.wkwebview": "1.3.7",
     "cordova-plugin-keyboard": "1.1.0",
+    "com.mysoft.hikvision": "1.0.2",
     "cordova-plugin-network-information": "2.0.1",
     "com.mysoft.mstatusbar": "2.3.1",
     "com.mysoft.maccelerometer": "1.0.2",
     "com.mysoft.mimagepicker": "1.4.9",
     "com.mysoft.mfilemanager": "1.4.4",
     "com.mysoft.mutils": "1.8.2",
-    "com.mysoft.msignatureboard": "1.0.8",
     "cordova-plugin-device": "2.0.3",
     "com.mysoft.mcordovawebview": "2.4.9",
     "com.mysoft.mimagebrowser": "1.5.4",
@@ -448,6 +456,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "com.mysoft.mdownloader": "1.5.4",
     "com.mysoft.docpreview": "1.1.2",
     "com.mysoft.mbarcode": "1.2.6",
+    "com.mysoft.msignatureboard": "1.0.8",
     "com.mysoft.mwebview": "1.6.8",
     "cordova-plugin-file-transfer": "1.7.1",
     "com.mysoft.mlogcollection": "1.1.9"
