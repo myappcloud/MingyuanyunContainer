@@ -406,6 +406,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "com.mysoft.miflyspeech.MIFlySpeech",
+      "file": "plugins/com.mysoft.miflyspeech/www/MIFlySpeech.js",
+      "pluginId": "com.mysoft.miflyspeech",
+      "clobbers": [
+        "MIFlySpeech"
+      ]
+    },
+    {
       "id": "cordova-plugin-file-transfer.FileTransferError",
       "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
       "pluginId": "cordova-plugin-file-transfer",
@@ -439,7 +447,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "com.mysoft.mminio": "1.1.1",
     "com.mysoft.wkwebview": "1.3.7",
     "cordova-plugin-keyboard": "1.1.0",
-    "com.mysoft.hikvision": "1.0.2",
+    "com.mysoft.hikvision": "1.0.4",
     "cordova-plugin-network-information": "2.0.1",
     "com.mysoft.mstatusbar": "2.3.1",
     "com.mysoft.maccelerometer": "1.0.2",
@@ -458,6 +466,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "com.mysoft.mbarcode": "1.2.6",
     "com.mysoft.msignatureboard": "1.0.8",
     "com.mysoft.mwebview": "1.6.8",
+    "com.mysoft.miflyspeech": "1.0.5",
     "cordova-plugin-file-transfer": "1.7.1",
     "com.mysoft.mlogcollection": "1.1.9"
   };
